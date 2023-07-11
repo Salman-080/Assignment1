@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#banner_img img {
+
+
+
+    height: 440px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+
+}
+
+.banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    width: 100%;
+}
+
+.articles h1 {
+    font-size: 80px;
+}
+
+.articles p {
+    font-size: 20px;
+    color: rgb(98, 91, 91);
+}
+
+#btn {
+
+    border: 1px solid palevioletred;
+    ;
+    background-color: palevioletred;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#btn:hover {
+
+    border: 1px solid rgb(140, 47, 140);
+    background-color: rgb(140, 47, 140);
+}
+
+.banner {
+
+    background-color: rgb(226, 201, 205);
+    overflow: hidden;
+    height: 450px;
+}
+
+.top_rated {
+
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 800px;
+
+
+
+}
+
+.top_rated_details {
+
+    text-align: center;
+
+}
+
+.top_rated_details h2 {
+    margin-bottom: 4px;
+}
+
+
+.top_rated_images {
+
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+
+
+
+}
+
+.top_rated_images img {
+
+    width: 220px;
+    height: 270px;
+    padding-top: 5%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 20px;
+
+
+
+}
+
+.top_rated_images P {
+    font-size: 16px;
+}
+
+#flower1 {
+    background-color: pink;
+}
+
+#flower2 {
+    background-color: rgb(146, 227, 227);
+}
+
+#flower3 {
+    background-color: rgb(165, 220, 165);
+}
+
+.top_rated_images div p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.service_support {
+    border-radius: 1px solid rgb(217, 207, 207);
+    background-color: rgb(217, 207, 207);
+    display: flex;
+    gap: 100px;
+    width: 770px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 9%;
+    height: 100px;
+
+}
+
+.service_support img {
+
+    height: 60px;
+}
+
+.discount {
+
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 400px;
+    width: 100%;
+}
+
+.discount img {
+
+    height: 300px;
+    margin-left: 60px;
+}
+
+.discount div button {
+
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    color: white;
+
+}
+
+.discount div button:hover {
+    border: 1px solid rgb(118, 91, 45);
+    cursor: pointer;
+    background-color: rgb(118, 91, 45);
+}
+
+.discount_articles {
+    text-align: center;
+
+}
+
+
+.instagram {
+
+    margin-top: 80px;
+
+}
+
+.insta_articles {
+
+    text-align: center;
+
+}
+
+.instagram div img {
+
+    height: 270px;
+}
+
+.insta_flowers {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 2%;
+}
+
+
+.form_box {
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/rectangle_9.png");
+    height: 270px;
+    width: 1055px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+
+
+.box_area {
+    text-align: center;
+
+
+}
+
+.l_deals {
+
+    margin-bottom: 15px;
+
+}
+
+.l_deals h2 {
+    font-size: 35px;
+}
+
+.form_field input {
+    height: 36px;
+
+}
+
+#email_box {
+    width: 600px;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+
+#submit_btn {
+
+    background-color: rgb(228, 82, 82);
+    border: 1px solid rgb(228, 82, 82);
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submit_btn:hover {
+
+    background-color: rgb(122, 33, 33);
+}
+
+.footer {
+    margin-top: 5%;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 320px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer div h2 {
+    font-size: 45px;
+}
+
+.footer div p {
+    font-size: 16px;
+
+}
+
+.footer div small {
+    font-size: small;
+    font-family: monospace;
+    color: rgb(196, 191, 191);
+}
+
+.footer div span {
+
+    color: palevioletred;
+}
+
+.offer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 190);
+    height: 450px;
+    width: 100%;
+
+}
+
+
+#lto {
+    font-size: 60px;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+}
+
+.price h2 {
+    font-size: 28px;
+    text-decoration: line-through;
+}
+
+.price h1 {
+    font-size: 40px;
+    margin-left: 10px;
+    color: rgb(238, 88, 88);
+}
+
+#d_left {
+
+    font-size: 18px;
+    color: rgb(84, 79, 79);
+}
+
+.offer_details {
+
+    margin-left: 30px;
+}
+
+
+#purchase_btn {
+
+    border: 1px solid rgb(236, 71, 71);
+    border-radius: 10px;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(236, 71, 71);
+    color: white;
+    font-weight: 350px;
+    padding: 5px;
+}
+
+#purchase_btn:hover {
+
+    border: 1px solid brown;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.offer_image {
+
+    width: 450px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: transitions 10s infinite;
+
+}
+
+@keyframes transitions {
+    0% {
+        background-image: url("./images/flower_google_2.png");
+    }
+
+    50% {
+        background-image: url("./images/pngwing_5.png");
+    }
+
+    100% {
+        background-image: url("./images/flower_google.png");
+    }
+}
